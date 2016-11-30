@@ -29,7 +29,7 @@ public class Coche {
 				"cm y un peso de plataforma de "+pesoPlataforma+"Kl." ;
 	}
 	
-	//configurar color
+	
 	public void estableceColor(String colorCoche){//SETTER no devuelve nada, por eso no tiene return
 		color=colorCoche;
 	}
@@ -37,7 +37,7 @@ public class Coche {
 	public String dimeColor(){//GETTER
 		return"el color del coche es "+ color;
 	}
-	//Configurar asientos
+	
 	public void configuraAsientos(String asientosCuero){//SETTER
 		if(asientosCuero=="si"){
 			this.asientosCuero=true;
@@ -46,7 +46,7 @@ public class Coche {
 		}
 	}
 	
-	public String dimeAsientos(){//
+	public String dimeAsientos(){
 		if(asientosCuero==true){
 			return "El coche tiene asientos de cuero.";
 	}else{

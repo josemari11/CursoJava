@@ -6,7 +6,6 @@ public class UsoCoche {
 
 	public static void main(String[] args) {
 		//Instanciar  clases, ejemplar de clases Coches
-		String asientos;
 		Coche c1=new Coche();
 		Coche c2=new Coche();
 		
@@ -19,6 +18,7 @@ public class UsoCoche {
 		
 		System.out.println("¿El vehiculo tiene asientos?");
 		c1.configuraAsientos("no");
+		//c1.configuraAsientos("no");
 		System.out.println(c1.dimeAsientos());
 		
 	}
