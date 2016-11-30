@@ -1,0 +1,39 @@
+package poo1;
+
+public class Coche {
+	private int ruedas;
+	private int largo;
+	private int ancho;
+	private int motor;
+	private int pesoPlataforma;
+	//características de cada vehiculo que pueden cambiar
+	private String color;
+	private int pesoTotal;
+	private boolean asientos, climatizador;
+	
+	//crear métodos
+	public Coche(){
+		ruedas=4;
+		largo=2000;
+		ancho=300;
+		motor=1600;
+		pesoPlataforma=500;
+		
+	}
+	public String dimeDatosGenerales(){//GETTER
+		
+		return "La plataforma del vehículo tiene "+ruedas+" ruedas.\n" +
+				"Mide"+ largo/1000 + " metros con un ancho de " + ancho +
+				"cm y un peso de plataforma de "+pesoPlataforma+"Kl." ;
+	}
+	
+	
+	public void estableceColor(String colorCoche){//SETTER no devuelve nada, por eso no tiene return
+		//color="azul";
+		color=colorCoche;
+	}
+	public String dimeColor(){//GETTER
+		return"el color del coche es "+ color;
+	}
+	
+}//class coche

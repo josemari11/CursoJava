@@ -1,0 +1,19 @@
+package poo1;
+
+public class UsoCoche {
+
+	public static void main(String[] args) {
+		
+		Coche c1=new Coche();//Instanciar una clase,ejemplar de clase Coche
+		Coche c2=new Coche();
+		
+		System.out.println(c1.dimeLargo());
+		
+		//c2.estableceColor();
+		
+		System.out.println(c2.dimeColor());
+		
+		
+	}
+
+}
