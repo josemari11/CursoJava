@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;DoWhile.java&apos; to &apos;CursoVideoJava/src/EstructurasDoWhile&apos;&#x0D;&#x0A;- Original project: &apos;CursoVideoJava&apos;&#x0D;&#x0A;- Destination element: &apos;CursoVideoJava/src/EstructurasDoWhile&apos;&#x0D;&#x0A;- Original element: &apos;EstructurasRepetitivas.DoWhile.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;EstructurasDoWhile" element1="/src&lt;EstructurasRepetitivas{DoWhile.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1477985130452" units="1" version="1.0"/>
+</session>

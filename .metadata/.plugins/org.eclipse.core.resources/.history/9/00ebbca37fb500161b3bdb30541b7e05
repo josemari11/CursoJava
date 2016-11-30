@@ -1,0 +1,11 @@
+package Arrays;
+
+public class ArraysIII {
+	public static void main(String[] args) {
+		String [] paises=new String[8];
+		
+			for(String elemento:paises){
+				System.out.println("País "+ elemento);
+			}
+	}	
+}
