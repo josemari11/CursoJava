@@ -48,7 +48,7 @@ public class Coche {
 	
 	public String dimeAsientos(){//
 		if(asientosCuero==true){
-		return "El coche tiene asientos de cuero.";
+			return "El coche tiene asientos de cuero.";
 	}else{
 		return "El coche tiene asientos de serie";
 		}
