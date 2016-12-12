@@ -1,0 +1,14 @@
+package poo1;
+
+public class UsoEmpleado {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+class Empleado{
+	
+}//class Empleado
