@@ -29,3 +29,15 @@
 2016-12-08 19:57:25,802 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2016-12-11 08:26:42,666 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2016-12-12 19:56:58,126 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2016-12-21 12:56:17,169 [Worker-11] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2016-12-21 14:23:41,846 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2016-12-21 14:25:52,114 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @137277ms
+2016-12-21 14:25:52,223 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2016-12-21 14:25:52,262 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@158763{/help,null,AVAILABLE}
+2016-12-21 14:25:52,279 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1a121b7{HTTP/1.1,[http/1.1]}{127.0.0.1:53754}
+2016-12-21 14:25:52,280 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @137442ms
+2016-12-21 14:26:59,441 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1a121b7{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2016-12-21 14:26:59,476 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@158763{/help,null,UNAVAILABLE}
+2016-12-21 14:46:24,861 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2016-12-22 18:20:34,753 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2016-12-22 18:57:48,828 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
