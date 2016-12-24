@@ -6,25 +6,12 @@ import java.util.GregorianCalendar;
 public class UsoEmpleado {
 
 	public static void main(String[] args) {
-		//Objetos de la clase empleado
 		Empleado empleado1=new Empleado("Paco Gómez",85000,1990,12,17);
 		Empleado empleado2=new Empleado("Ana López",95000,1995,06,07);
 		Empleado empleado3=new Empleado("María Martín",10000,2002,10,30);
 		
-		empleado1.subeSueldo(5);
-		empleado1.subeSueldo(5);
-		empleado1.subeSueldo(5);
-		
-		System.out.println("Nombre: "+empleado1.dameNombre()+ "Sueldo: " +empleado1.dameSueldo()
-		+ " Fecha de alta: "+ empleado1.dameFechaContrato());
-		
-		System.out.println("Nombre: "+empleado2.dameNombre()+ "Sueldo: " +empleado2.dameSueldo()
-		+ " Fecha de alta: "+ empleado2.dameFechaContrato());
-		
-		System.out.println("Nombre: "+empleado3.dameNombre()+ "Sueldo: " +empleado3.dameSueldo()
-		+ " Fecha de alta: "+ empleado3.dameFechaContrato());
 	}//class UsoEmpleado
-		//**********************nos quedamos en 11 minutos
+
 }//void
 //Metodo constructor
 	class Empleado{

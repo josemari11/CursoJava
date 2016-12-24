@@ -16,15 +16,9 @@ public class UsoEmpleado {
 		empleado1.subeSueldo(5);
 		
 		System.out.println("Nombre: "+empleado1.dameNombre()+ "Sueldo: " +empleado1.dameSueldo()
-		+ " Fecha de alta: "+ empleado1.dameFechaContrato());
-		
-		System.out.println("Nombre: "+empleado2.dameNombre()+ "Sueldo: " +empleado2.dameSueldo()
-		+ " Fecha de alta: "+ empleado2.dameFechaContrato());
-		
-		System.out.println("Nombre: "+empleado3.dameNombre()+ "Sueldo: " +empleado3.dameSueldo()
-		+ " Fecha de alta: "+ empleado3.dameFechaContrato());
+		+ "Fecha de alta: "+ empleado1.dameFechaContrato());
 	}//class UsoEmpleado
-		//**********************nos quedamos en 11 minutos
+
 }//void
 //Metodo constructor
 	class Empleado{

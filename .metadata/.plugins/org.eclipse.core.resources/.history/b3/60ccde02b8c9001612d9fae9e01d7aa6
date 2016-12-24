@@ -24,7 +24,7 @@ public class UsoEmpleado {
 		System.out.println("Nombre: "+empleado3.dameNombre()+ "Sueldo: " +empleado3.dameSueldo()
 		+ " Fecha de alta: "+ empleado3.dameFechaContrato());
 	}//class UsoEmpleado
-		//**********************nos quedamos en 11 minutos
+
 }//void
 //Metodo constructor
 	class Empleado{
