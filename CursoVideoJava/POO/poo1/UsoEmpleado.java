@@ -6,7 +6,7 @@ import java.util.GregorianCalendar;
 public class UsoEmpleado {
 
 	public static void main(String[] args) {
-		//Objetos de la clase empleado
+		/*//Objetos de la clase empleado
 		Empleado empleado1=new Empleado("Paco Gómez",85000,1990,12,17);
 		Empleado empleado2=new Empleado("Ana López",95000,1995,06,07);
 		Empleado empleado3=new Empleado("María Martín",10000,2002,10,30);
@@ -22,9 +22,35 @@ public class UsoEmpleado {
 		+ " Fecha de alta: "+ empleado2.dameFechaContrato());
 		
 		System.out.println("Nombre: "+empleado3.dameNombre()+ "Sueldo: " +empleado3.dameSueldo()
-		+ " Fecha de alta: "+ empleado3.dameFechaContrato());
+		+ " Fecha de alta: "+ empleado3.dameFechaContrato());*/
+		//Otra forma de hacerlo con arrays
+		Empleado[] misEmpleados= new Empleado[3];
+		misEmpleados[0]=new Empleado("Paco Gómez",85000,1990,12,17);
+		misEmpleados[1]=new Empleado("Ana López",95000,1995,06,07);
+		misEmpleados[2]=new Empleado("María Martín",10000,2002,10,30);
+			/*for(int i=0;i<3;i++){
+				misEmpleados[i].subeSueldo(5);
+			}*/
+		//Bucle for mejorado
+		for(Empleado e: misEmpleados){
+			e.subeSueldo(5);
+		}
+			/*for(int i=0;i<3;i++){
+				System.out.println("Nombre; "+ misEmpleados[i].dameNombre()+ " Sueldo; "+misEmpleados[i].dameSueldo()+
+						" Fecha de Alta: "+ misEmpleados[i].dameFechaContrato());
+			}*/
+		//Bucle for mejorado
+		for(Empleado e: misEmpleados){
+			System.out.println("Nombre; "+e.dameNombre()+ " Sueldo; "+ e.dameSueldo()+
+					" Fecha de Alta: "+ e.dameFechaContrato());
+			
+		}
+		
+		
 	}//class UsoEmpleado
-		//**********************nos quedamos en 11 minutos
+		
+	
+		
 }//void
 //Metodo constructor
 	class Empleado{
