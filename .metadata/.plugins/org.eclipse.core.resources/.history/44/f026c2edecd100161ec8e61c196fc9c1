@@ -10,7 +10,6 @@ public class Calculos {
 	private float perimetro;
 	private float area;
 	private float radio;
-	
 	//Método constructor
 	public float getPerimetro() {
 		return radio;
