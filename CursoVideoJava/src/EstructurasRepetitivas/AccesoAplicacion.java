@@ -7,7 +7,7 @@ public class AccesoAplicacion {
 		String pass="";
 		
 		while(clave.equals(pass)==false){
-			pass=JOptionPane.showInputDialog("INtroduce la contraseña, por favor.");
+			pass=JOptionPane.showInputDialog("Introduce la contraseña, por favor.");
 			if(clave.equals(pass)==false){
 				System.out.println("Contraseña incorrecta");
 			}

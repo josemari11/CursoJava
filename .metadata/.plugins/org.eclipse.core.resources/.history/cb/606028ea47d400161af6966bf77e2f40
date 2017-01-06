@@ -8,7 +8,7 @@ Nota: Puedes utilizar las siguientes funciones:
 ● calcularDescuento: Que recibe un precio y devuelve el descuento.
 ● CalcularPrecioTotal: Que recibe un precio y y el descuento y devuelve el precio final.*/
 package MetodosDiciembreClase.Ejer3;
-import static java.lang.Math.*;
+
 public class ImporteTienda {
 
 	double precio;
@@ -55,8 +55,7 @@ public class ImporteTienda {
 			precio + "€" +" El descuento es de "+ descuento + "€ y el total es de "+ total +"€");
 		}
 		else{
-			System.out.printf("Precio del producto: " + "%.2f",precio);
-			System.out.printf("%d %,5.3f \n",2 ,precio );
+			System.out.println("Precio del producto: " + precio);
 		}
 		
 	}

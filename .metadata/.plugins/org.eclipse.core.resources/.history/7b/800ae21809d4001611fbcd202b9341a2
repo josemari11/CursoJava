@@ -8,16 +8,17 @@ Nota: Puedes utilizar las siguientes funciones:
 ● calcularDescuento: Que recibe un precio y devuelve el descuento.
 ● CalcularPrecioTotal: Que recibe un precio y y el descuento y devuelve el precio final.*/
 package MetodosDiciembreClase.Ejer3;
-import static java.lang.Math.*;
+
 public class ImporteTienda {
 
 	double precio;
 	//datos de las compras precios, descuentos 
 	final int TIPO_DESCUENTO_MEN=6;
 	final int TIPO_DESCUENTO_MAY=60;
+	final int TIPO_DESCUENTO_SUP=60;
 	//porcentajes de descuento
-	final double DESCUENTO_NORMAL=0.05;
-	final double DESCUENTO_SUPER=0.1;
+	final int DESCUENTO_NORMAL=6;
+	final int DESCUENTO_SUPER=10;
 	//totales
 	double descuento;
 	double total;
@@ -28,36 +29,9 @@ public class ImporteTienda {
 	}
 	
 	
-	public void ComprobarPrecioMayor6(){
-		if(precio >= TIPO_DESCUENTO_MEN && precio<TIPO_DESCUENTO_MAY){
-			descuento=precio*DESCUENTO_NORMAL;
-			total=precio-descuento;
+	public void ComprobarPrecio(){
+		if(precio=>TIPO_DESCUENTO_MEN){
+			
 		}
-		else if(precio >=TIPO_DESCUENTO_MAY){
-			descuento=precio*DESCUENTO_SUPER;
-			total=precio-descuento;
-		}
-		
-	}
-	public double getPrecio() {
-		return precio;
-	}
-
-
-	public void setPrecio(double precio) {
-		this.precio = precio;
-	}
-
-
-	public void LeerResultado(){
-		if(precio>=6){
-			System.out.println("Precio del producto: " + 
-			precio + "€" +" El descuento es de "+ descuento + "€ y el total es de "+ total +"€");
-		}
-		else{
-			System.out.printf("Precio del producto: " + "%.2f",precio);
-			System.out.printf("%d %,5.3f \n",2 ,precio );
-		}
-		
 	}
 }

@@ -51,8 +51,8 @@ public class ImporteTienda {
 
 	public void LeerResultado(){
 		if(precio>=6){
-			System.out.println("Precio del producto: " + 
-			precio + "€" +" El descuento es de "+ descuento + "€ y el total es de "+ total +"€");
+			System.out.printf("Precio del producto: " + 
+			precio + "€" +" El descuento es de "+ "%.2f",descuento + "€ y el total es de "+ total +"€");
 		}
 		else{
 			System.out.printf("Precio del producto: " + "%.2f",precio);

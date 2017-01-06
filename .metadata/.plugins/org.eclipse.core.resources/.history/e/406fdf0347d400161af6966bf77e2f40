@@ -15,14 +15,14 @@ public class Programa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double valor;
+		double precio;
 		ImporteTienda Importe1=new ImporteTienda();
 		Scanner tc=new Scanner (System.in);
 		
 		System.out.println("Ingrese el precio del producto");
-		valor =tc.nextDouble();
+		precio =tc.nextDouble();
 		
-		Importe1.setPrecio(valor);
+		Importe1.setPrecio(precio);
 		
 		Importe1.ComprobarPrecioMayor6();
 		Importe1.LeerResultado();
