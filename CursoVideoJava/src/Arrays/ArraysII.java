@@ -13,7 +13,7 @@ public class ArraysII {
 			paises[6]="Ecuador";
 			paises[7]="Venezuela";
 			int [] numero= {1,2,3,4,5,6,7,8};
-			String pai;
+			String pais;
 			int num;
 			
 			/*for (int i=0; i<paises.length;i++){

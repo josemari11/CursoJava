@@ -1,0 +1,26 @@
+/*4) Realizar un programa de ordenador que pida el número de horas trabajadas durante la
+semana, y el precio al que se le paga la hora. Entonces, el programa debe calcular el sueldo
+bruto, y a partir de éste los impuestos, para finalmente obtener el sueldo neto.
+Condiciones:
+Las horas que sobrepasen de 35 las cobra un 50% más caras.
+Empieza a pagar impuestos a partir de 250 euros reales.
+De pagar impuestos, paga el 20% si no sobrepasa los 300 euros. A partir de 300 paga el 30%.
+*/
+package MetodosDiciembreClase.Ejer4;
+
+public class CalculoHoras {
+
+	String dia[]={"lunes","martes","miercoles","jueves","viernes"};
+	double precioHora;
+	double sueldoBruto;
+	double sueldoNeto;
+	
+	final int MAX_HORAS_NORMALES=35;//Máximo de horas normales
+	 int horasExtra;//50% cobra de más
+	
+	final int IMPUESTOS_COMIENZA=250;//comienza a pagar impuestos a partir de 250 pagando el 20%
+	final double PAGA_IMPUESTOS_MIN=0.2;//20%
+	final int IMPUESTO_SUP=300;//si sobreapasa los 300 paga el 30%
+	final double PAGA_IMPUESTOS_MAX=0.3;
+	
+}

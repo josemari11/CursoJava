@@ -12,7 +12,16 @@ public class Programa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		double numHoras;
+		CalculoHoras Semana1=new CalculoHoras();
+		Semana1.PedirHoras();
+		Semana1.LeerTotalHoras();
+		Semana1.HorasExtras();
+		Semana1.LeerSueldoBruto();
+		Semana1.CobrarImpuestosReducidos();
+		Semana1.CobrarImpuestosAmpliado();
+		Semana1.NopagaImpuestos();
+		Semana1.LeerSueldoNeto();
 	}
 
 }
