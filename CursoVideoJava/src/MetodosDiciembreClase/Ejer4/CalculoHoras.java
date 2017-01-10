@@ -11,8 +11,8 @@ package MetodosDiciembreClase.Ejer4;
 import java.util.Scanner;
 
 public class CalculoHoras {
-	Scanner tc=new Scanner(System.in);
-	
+
+	private Scanner tc;
 	private String dia[]={"lunes","martes","miercoles","jueves","viernes"};
 	private double horas;
 	private int totalHoras;
@@ -32,24 +32,10 @@ public class CalculoHoras {
 	private String tipoImpuesto;
 	
 	//Método constructor
-	public double CalculoHoras(){
-		return horas;
+	public CalculoHoras(){
+		tc=new Scanner(System.in);
 	}
-	//getter and setter
-	public double getHoras() {
-		return horas;
-	}
-
-	public void setHoras(double horas) {
-		this.horas = horas;
-	}
-	public String[] getDia() {
-		return dia;
-	}
-
-	public void setDia(String[] dia) {
-		this.dia = dia;
-	}
+	
 	//Métodos
 	public void PedirHoras(){
 		for(int i=0;i<5;i++){

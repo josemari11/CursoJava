@@ -7,6 +7,60 @@
 	*/
 package MetodosDiciembreClase.Ejer5;
 
-public class DiaTemp {
+import java.util.Scanner;
 
+public class DiaTemp {
+	Scanner tc;
+	private String dia[]={"Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo"};
+	private double minT[]=new double[7];
+	private double maxT[]=new double[7];
+	private double tempMedia[]=new double[7];
+	
+	//Método constructor
+	public DiaTemp(){
+		tc=new Scanner(System.in);
+	}
+	
+	//funciones
+	//pedir temperaturas 
+	public void pideTemps(){
+		for(int i=0;i<7;i++){
+			System.out.println("Ingrese la temperatura Mínima del "+dia[i]);
+			minT[i]=tc.nextDouble();
+			System.out.println("Ingrese la temperatura Máxima del "+dia[i]);
+			maxT[i]=tc.nextDouble();
+						
+		}
+	}
+	//leer temperaturas
+	public void LeerTemp(){
+		for(int i=0;i<7;i++){
+			System.out.println(dia[i]);
+			System.out.print("Temperatura Mínima " + minT[i]+"->");
+			System.out.println("Temperatura Máxima " +maxT[i]);
+			System.out.println("----------------------------------------------");
+			}
+	}
+	//Calcular medias
+	public void TempMedia(){
+		for(int i=0;i<7;i++){
+			tempMedia[i]=(minT[i]+maxT[i])/2;
+		}
+	}
+	public void LeerMedias(){
+		for(int i=0;i<7;i++){
+			System.out.println(dia[i]);
+			System.out.println("Temperatura Media " +tempMedia[i]);
+			System.out.println("---------------------");
+		}
+	}
+	
+	public String toString() {
+		String msg="";
+		
+		for(int i=0;i<7;i++){
+					msg += dia[i] + " . " + (int)tempMedia[i] +"\n";
+		}
+		return msg;
+	}
 }

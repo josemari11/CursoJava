@@ -11,7 +11,13 @@ public class Programa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		DiaTemp Semana1=new DiaTemp();
+		Semana1.pideTemps();
+		Semana1.LeerTemp();
+		Semana1.TempMedia();
+		Semana1.LeerMedias();
+		
+		System.out.println(Semana1.toString());
 	}
 
 }

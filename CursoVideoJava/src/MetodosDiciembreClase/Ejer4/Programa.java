@@ -12,7 +12,6 @@ public class Programa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double numHoras;
 		CalculoHoras Semana1=new CalculoHoras();
 		Semana1.PedirHoras();
 		Semana1.LeerTotalHoras();
